@@ -45,6 +45,15 @@ public class Main {
         System.out.println("Первый способ  " + theFirstWay + " кг");
         System.out.println("Второй способ " + theSecondWay + " кг");
 
+        var hoursOfOperation = 640 ;
+        var HowManyEmployeesAreThereInTotal = hoursOfOperation/8;
+        System.out.println("Всего работников в компании " + HowManyEmployeesAreThereInTotal + " человек");
+
+        var staff = HowManyEmployeesAreThereInTotal + 94 ;
+        var  dividedHours =  640 / staff ;
+        System.out.println("Если в компании работает " + staff + " человек, то всего " + dividedHours + " часа работы может быть поделено между сотрудниками" );
+
+
 
     }
 
