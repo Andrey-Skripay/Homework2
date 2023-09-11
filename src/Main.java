@@ -30,13 +30,23 @@ public class Main {
         System.out.println(frog);
 
         var weightOfOneBoxer = 78.2;
-        System.out.println("Масса одного боксера "+ weightOfOneBoxer + "кг");
+        System.out.println("Масса одного боксера "+ weightOfOneBoxer + " кг");
         var weightOfTheSecondBoxer = 82.7;
-        System.out.println(  "Масса второго боксера " + weightOfTheSecondBoxer + "кг");
+        System.out.println(  "Масса второго боксера " + weightOfTheSecondBoxer + " кг");
         var totalWeight = weightOfOneBoxer + weightOfTheSecondBoxer;
         System.out.println("Общая масса " +totalWeight + "кг");
         var totalWeightMin = weightOfOneBoxer - weightOfTheSecondBoxer;
-        System.out.println("Разность между массами бойцов " +totalWeightMin + "кг");
+        System.out.println("Разность между массами бойцов " +totalWeightMin + " кг");
+
+        var weightOfTheFirstAthlete = 80;
+        var   weightOfTheSecondAthlete = 100;
+        var theFirstWay = weightOfTheFirstAthlete - weightOfTheSecondAthlete;
+        var theSecondWay = weightOfTheFirstAthlete % weightOfTheSecondAthlete;
+        System.out.println("Первый способ  " + theFirstWay + " кг");
+        System.out.println("Второй способ " + theSecondWay + " кг");
+
+
     }
+
 
 }
