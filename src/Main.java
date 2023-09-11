@@ -28,5 +28,15 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+
+        var weightOfOneBoxer = 78.2;
+        System.out.println("Масса одного боксера "+ weightOfOneBoxer + "кг");
+        var weightOfTheSecondBoxer = 82.7;
+        System.out.println(  "Масса второго боксера " + weightOfTheSecondBoxer + "кг");
+        var totalWeight = weightOfOneBoxer + weightOfTheSecondBoxer;
+        System.out.println("Общая масса " +totalWeight + "кг");
+        var totalWeightMin = weightOfOneBoxer - weightOfTheSecondBoxer;
+        System.out.println("Разность между массами бойцов " +totalWeightMin + "кг");
     }
+
 }
