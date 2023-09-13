@@ -40,17 +40,18 @@ public class Main {
 
         var weightOfTheFirstAthlete = 80;
         var   weightOfTheSecondAthlete = 100;
-        var theFirstWay = weightOfTheFirstAthlete - weightOfTheSecondAthlete;
-        var theSecondWay = weightOfTheFirstAthlete % weightOfTheSecondAthlete;
+        var theFirstWay =  weightOfTheSecondAthlete - weightOfTheFirstAthlete;
+        var theSecondWay = weightOfTheSecondAthlete % weightOfTheFirstAthlete;
         System.out.println("Первый способ  " + theFirstWay + " кг");
         System.out.println("Второй способ " + theSecondWay + " кг");
 
         var hoursOfOperation = 640 ;
-        var HowManyEmployeesAreThereInTotal = hoursOfOperation/8;
-        System.out.println("Всего работников в компании " + HowManyEmployeesAreThereInTotal + " человек");
+        var per = 8;
+        var howManyEmployeesAreThereInTotal = hoursOfOperation/8;
+        System.out.println("Всего работников в компании " + howManyEmployeesAreThereInTotal + " человек");
 
-        var staff = HowManyEmployeesAreThereInTotal + 94 ;
-        var  dividedHours =  640 / staff ;
+        var staff = howManyEmployeesAreThereInTotal + 94 ;
+        var  dividedHours =  per * staff ;
         System.out.println("Если в компании работает " + staff + " человек, то всего " + dividedHours + " часа работы может быть поделено между сотрудниками" );
 
 
